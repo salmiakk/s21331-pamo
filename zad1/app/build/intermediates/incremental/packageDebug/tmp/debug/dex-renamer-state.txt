@@ -1,7 +1,7 @@
-#Fri Mar 17 22:06:07 CET 2023
-base.1=C\:\\Users\\mpioc\\Desktop\\mobilki\\Tipper\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out\\classes.dex
+#Sun Mar 19 13:55:02 CET 2023
+base.1=C\:\\Users\\s21331\\Downloads\\Tipper_bmi\\zad1\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out\\classes.dex
 path.1=classes.dex
-base.0=C\:\\Users\\mpioc\\Desktop\\mobilki\\Tipper\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out\\classes.dex
+base.0=C\:\\Users\\s21331\\Downloads\\Tipper_bmi\\zad1\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out\\classes.dex
 renamed.1=classes2.dex
 renamed.0=classes.dex
 path.0=classes.dex
