@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".bmiFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/weight"
+        android:id="@+id/weightLabelTextView"
+        android:layout_gravity="right"/>
+    <EditText
+        android:id="@+id/weightEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill_horizontal"
+        android:background="@color/amount_background"
+        android:elevation="@dimen/elevation"
+        android:hint="@string/enter_weight"
+        android:padding="@dimen/textview_padding"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    <TextView
+        android:id="@+id/heightLabelTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/height"
+        android:layout_gravity="right"/>
+    <EditText
+        android:id="@+id/heightEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill_horizontal"
+        android:background="@color/amount_background"
+        android:elevation="@dimen/elevation"
+        android:hint="@string/enter_height"
+        android:padding="@dimen/textview_padding"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/bmi"
+        android:id="@+id/totalLabelTextView"
+        android:layout_gravity="right"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/bmiTextView"
+        android:layout_gravity="fill_horizontal"
+        android:background="@color/result_background"
+        android:gravity="center"
+        android:padding="@dimen/textview_padding"
+        android:elevation="@dimen/elevation"/>
+
+</FrameLayout>
