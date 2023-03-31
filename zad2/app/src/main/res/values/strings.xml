@@ -1,11 +1,27 @@
 <resources>
-    <string name="app_name">BMI Calculator</string>
-    <string name="enter_weight">Enter Weight</string>
-    <string name="enter_height">Enter Height</string>
+    <string name="app_name">My Application</string>
+    <string name="title_home">Home</string>
+    <string name="title_bmi">BMI Calculator</string>
+    <string name="title_whattoeat">How many calories can I eat</string>
+    <string name="title_recipes">Recipes</string>
     <string name="bmi">BMI</string>
-    <string name="weight">Weight</string>
+    <string name="enter_height">Enter height</string>
     <string name="height">Height</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="next_button">Next</string>
+    <string name="enter_weight">Enter Weight</string>
+    <string name="weight">Weight</string>
+    <string name="calories">Calories</string>
+    <string name="age">Age</string>
+    <string name="enter_age">Enter Age</string>
+    <string name="gender">Gender</string>
+    <string name="calculate">Calculate</string>
+    <string name="recipe1">NALEŚNIKI\nMąkę wsypać do miski, dodać jajka, mleko, wodę i sól. Zmiksować na gładkie ciasto. Dodać roztopione masło lub olej roślinny i razem zmiksować (lub wykorzystać tłuszcz do smarowania patelni przed smażeniem każdego naleśnika).
+Naleśniki smażyć na dobrze rozgrzanej patelni z cienkim dnem np. naleśnikowej. Przewrócić na drugą stronę gdy spód naleśnika będzie już ładnie zrumieniony i ścięty.</string>
+    <string name="recipe2">OWSIANKA\nPiekarnik nagrzać do 190 stopni C. Płatki owsiane wsypać do niedużego naczynia żaroodpornego lub 2 - 4 odpowiednio mniejszych, tak aby sięgały nie więcej niż do połowy naczynia lub naczynek.
+Mleko podgrzać prawie do zagotowania, dodać miód lub syrop oraz rodzynki, zalać tym płatki. Posypać cynamonem oraz pokrojonym w kosteczkę jabłkiem. Jabłka posypać cukrem.
+Wstawić do piekarnika na 20 - 25 minut. Wyjąć z piekarnika i skropić sokiem z cytryny lub pomarańczy.</string>
+    <string-array name="genders">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
 </resources>
